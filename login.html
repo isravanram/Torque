@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Torque | Login</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    
+            <div class="loginFormContainer">
+                
+                <a href="index.html"><img src="logo-1561819118194.png" class="mainIcon"></a>
+                
+                <form class="loginForm" method="post" action="index.html" onsubmit="return checkLogin()">
+
+                    <h3>Login to your Account</h3> <br> <br>
+                    
+
+                    <span id="errorMessage"></span> <br> <br>
+                    <label for="username">Username :<sup>*</sup></label>
+                    <input type="text" id="loginUsername" name="username">
+
+                    <br> <br>
+                    <label for="password">Password :<sup>*</sup></label>
+                    <input type="password" id="loginPassword" name="username">
+
+                    <br>
+                    
+                    <input type="submit" value="Login" name="login">
+                    
+                </form>
+            </div>
+        
+
+</body>
+</html>
